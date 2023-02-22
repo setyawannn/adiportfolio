@@ -1,10 +1,14 @@
-import "../styles/globals.css";
 import React from "react";
+import HeroSection from "./section/HeroSection";
+import WhoSection from "./section/WhoSection";
+import ExperienceSection from "./section/ExperienceSection";
 
 export default function Home() {
   return (
-    <div className="w-screen h-screen flex justify-center items-center">
-      <h1 className="text-green-600 text-3xl font-bold">Be Happy Today!</h1>
-    </div>
+    <>
+      <HeroSection />
+      <WhoSection />
+      <ExperienceSection />
+    </>
   );
 }
