@@ -42,7 +42,7 @@ const dataExperience = [
         name: "Playbox Season 3",
         title: "Level 2",
         organizer: "Telkom Surabaya Institute of Technology",
-        date: "2021, June 17",
+        date: "2022, June 17",
       },
       {
         name: "Bionix Student Level",
@@ -80,10 +80,52 @@ const dataExperience = [
     for: "Work",
     details: [
       {
-        name: "PPDB MIN 1 Malang",
-        title: "Designer",
+        name: "SiAbsen",
+        title: "UI/UX",
+        organizer: "Ciboox Indonesia",
+        date: "2022, March 24",
+      },
+      {
+        name: "Mlengsoy",
+        title: "UI/UX",
         organizer: "Ciboox Indonesia",
         date: "2021, August 17",
+      },
+      {
+        name: "Benerin App",
+        title: "UI/UX",
+        organizer: "Ciboox Indonesia",
+        date: "2021, August 17",
+      },
+      {
+        name: "Plantani App",
+        title: "UI/UX",
+        organizer: "Ciboox Indonesia",
+        date: "2021, August 17",
+      },
+      {
+        name: "Vragio",
+        title: "UI/UX & Frontend",
+        organizer: "Ciboox Indonesia",
+        date: "2021, August 17",
+      },
+      {
+        name: "Sinar Berkah Ornament",
+        title: "UI/UX",
+        organizer: "Ciboox Indonesia",
+        date: "2021, August 17",
+      },
+      {
+        name: "PPDB MIN 1 Malang",
+        title: "UI/UX & Frontend",
+        organizer: "Ciboox Indonesia",
+        date: "2021, August 17",
+      },
+      {
+        name: "Sports Analytic",
+        title: "UI/UX & Frontend",
+        organizer: "Ciboox Indonesia",
+        date: "On Proggress",
       },
     ],
   },

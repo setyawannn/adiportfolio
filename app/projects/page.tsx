@@ -1,9 +1,10 @@
 import React from "react";
+import ProjectsSection from "../section/ProjectsSection";
 
 export default function Projects() {
   return (
     <div>
-      <h1>Hello Mbak</h1>
+      <ProjectsSection />
     </div>
   );
 }

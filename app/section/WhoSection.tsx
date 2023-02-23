@@ -6,13 +6,19 @@ export default function WhoSection() {
       <div className="">
         <h2 className="text-4xl font-bold mb-6">Who is Adi?</h2>
         <p className=" text-lg font-normal leading-loose">
-          Saya merupakan designer sekaligus web developer dari Ciboox Indonesia,
-          sebuah start-up yang saya dirikan dengan teman-teman saya yang
+          Saya merupakan designer sekaligus web developer dari{" "}
+          <span className="bg-orange-400 px-2 py-1 rounded-md">
+            Ciboox Indonesia
+          </span>
+          , sebuah start-up yang saya dirikan dengan teman-teman saya yang
           sekarang bergerak pada bidang Web developer dan Game Developer, Saya
-          juga merupakan pelajar yang sedang menempuh pendidikan di SMK Telkom
-          Malang. Untuk saat ini saya hanya memiliki 2 tahun pengalaman di
-          bidang design dan web development, namun saya akan terus berkembang
-          dengan semakin banyaknya tantangan yang akan saya hadapi.
+          juga merupakan pelajar yang sedang menempuh pendidikan di
+          <span className="bg-pink-400 px-2 py-1 rounded-md ml-1">
+            SMK Telkom Malang
+          </span>
+          . Untuk saat ini saya hanya memiliki 2 tahun pengalaman di bidang
+          design dan web development, namun saya akan terus berkembang dengan
+          semakin banyaknya tantangan yang akan saya hadapi.
         </p>
       </div>
     </section>
