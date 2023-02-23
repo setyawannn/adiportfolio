@@ -80,27 +80,6 @@ export default function ExperienceSection() {
       </p>
 
       <ExTabs />
-
-      {dataExperience.map((data, index) => {
-        return (
-          <div key={index} className="mt-6">
-            <div className="h-[1.5px] w-full bg-secondary mb-2"></div>
-            <div className="flex flex-row gap-4">
-              <div className="w-1/3">
-                <h6 className="text-base font-bold ">{data.date}</h6>
-              </div>
-              <div className="w-2/3">
-                <h5 className="font-bold text-xl">
-                  {`${data.title} | ${data.name}`}
-                </h5>
-                <p className="mt-1 font-medium text-base text-zinc-700">
-                  {data.organizer}
-                </p>
-              </div>
-            </div>
-          </div>
-        );
-      })}
     </section>
   );
 }
