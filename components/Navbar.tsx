@@ -21,10 +21,10 @@ export default function Navbar() {
             <Link href={"/"}>Home</Link>
           </li>
           <li className="px-4 py-6 duration-200 hover:text-[21px] hover:underline">
-            <Link href={"/projects"}>Projects</Link>
+            <Link href={"/achievement"}>Achievement</Link>
           </li>
           <li className="px-4 py-6 duration-200 hover:text-[21px] hover:underline">
-            <Link href={"/certificates"}>Certificates</Link>
+            <Link href={"/products"}>Products</Link>
           </li>
         </ul>
 
@@ -50,13 +50,13 @@ export default function Navbar() {
               </Link>
             </li>
             <li className="p-4 text-4xl hover:text-zinc-500">
-              <Link onClick={handleNav} href={"/projects"}>
-                Projects
+              <Link onClick={handleNav} href={"/achievement"}>
+                Achievement
               </Link>
             </li>
             <li className="p-4 text-4xl hover:text-zinc-500">
-              <Link onClick={handleNav} href={"/certificates"}>
-                Certificates
+              <Link onClick={handleNav} href={"/products"}>
+                Products
               </Link>
             </li>
           </ul>

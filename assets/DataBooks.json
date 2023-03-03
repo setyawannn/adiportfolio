@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "The Art of Design",
+    "desc": "Lorem ipsum dolor sit amet.",
+    "category": "Design, Education",
+    "rating": 4.8,
+    "price": 93000,
+    "pict": "/assets/images/theartofdesign.png",
+    "best": false
+  },
+  {
+    "id": 2,
+    "name": "All About Mindset",
+    "desc": "Lorem ipsum dolor sit amet.",
+    "category": "Mind & Body, Education",
+    "rating": 4.5,
+    "price": 84000,
+    "pict": "/assets/images/allaboutmindset.png",
+    "best": true
+  },
+  {
+    "id": 3,
+    "name": "She's Cute But +999",
+    "desc": "Lorem ipsum dolor sit amet.",
+    "category": "Novel, Romance",
+    "rating": 4.8,
+    "price": 88000,
+    "pict": "/assets/images/shescutebut999.png",
+    "best": true
+  },
+  {
+    "id": 4,
+    "name": "ON / OFF",
+    "desc": "Lorem ipsum dolor sit amet.",
+    "category": "Education, Investing",
+    "rating": 4.8,
+    "price": 82000,
+    "pict": "/assets/images/onoff.png",
+    "best": false
+  },
+  {
+    "id": 4,
+    "name": "Pretty Tailor",
+    "desc": "Lorem ipsum dolor sit amet.",
+    "category": "Education, Investing",
+    "rating": 4.8,
+    "price": 96000,
+    "pict": "/assets/images/prettytailor.png",
+    "best": true
+  },
+  {
+    "id": 4,
+    "name": "UI/UX Design",
+    "desc": "Lorem ipsum dolor sit amet.",
+    "category": "Education, Investing",
+    "rating": 4.8,
+    "price": 120000,
+    "pict": "/assets/images/uiuxdesign.png",
+    "best": true
+  }
+]

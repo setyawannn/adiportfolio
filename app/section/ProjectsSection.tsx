@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -12,7 +11,7 @@ export default function ProjectsSection() {
           kerjakan dan kemungkin juga sedang dalam tahap penggarapan
         </p>
         <div className="flex w-full justify-between gap-8">
-          <div className="w-1/2 p-5 border bg-gray-50 border-secondary">
+          <div className="w-1/2 p-5 border bg-gray-50 border-secondary rounded">
             <div className="w-full h-40 bg-green-300"></div>
             <h6 className="mt-4 px-3 py-1 w-fit font-bold text-secondary bg-lime-500">
               UI/UX
@@ -24,14 +23,17 @@ export default function ProjectsSection() {
             </p>
             <div className="w-full flex text-center items-center h-10 mt-4 border-t border-secondary">
               <Link
-                href={"#"}
+                href={
+                  "https://www.figma.com/proto/i3Fjbig4kRWVC8qoGOz6xm/Statistic-Player?page-id=0%3A1&node-id=215%3A5467&viewport=284%2C-244%2C0.04&scaling=min-zoom&starting-point-node-id=194%3A2725"
+                }
+                target="_blank"
                 className="w-full font-semibold text-blue-700 text-base pt-3 hover:underline"
               >
                 View Project
               </Link>
             </div>
           </div>
-          <div className="w-1/2 p-5 border bg-gray-50 border-secondary">
+          <div className="w-1/2 p-5 border bg-gray-50 border-secondary rounded">
             <div className="w-full h-40 bg-green-300"></div>
             <div className="flex gap-x-2">
               <h6 className="mt-4 px-3 py-1 w-fit font-bold text-secondary bg-lime-500">
@@ -48,7 +50,10 @@ export default function ProjectsSection() {
             </p>
             <div className="w-full flex text-center items-center h-10 mt-4 border-t border-secondary">
               <Link
-                href={"#"}
+                href={
+                  "https://www.figma.com/proto/DxC3admTbPNNBmetffWSbL/PPDB-MIN-1-MLG?page-id=0%3A1&node-id=26%3A1271&viewport=221%2C260%2C0.03&scaling=min-zoom&starting-point-node-id=26%3A1271&show-proto-sidebar=1"
+                }
+                target="_blank"
                 className="w-full font-semibold text-blue-700 text-base pt-3 hover:underline"
               >
                 View Project
