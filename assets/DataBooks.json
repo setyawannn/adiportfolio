@@ -40,7 +40,7 @@
     "best": false
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Pretty Tailor",
     "desc": "Lorem ipsum dolor sit amet.",
     "category": "Education, Investing",
@@ -50,7 +50,7 @@
     "best": true
   },
   {
-    "id": 4,
+    "id": 6,
     "name": "UI/UX Design",
     "desc": "Lorem ipsum dolor sit amet.",
     "category": "Education, Investing",

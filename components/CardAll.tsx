@@ -20,7 +20,7 @@ export default function CardAll(props: Props) {
 
   return (
     <div
-      onClick={() => router.push(`products/2`)}
+      onClick={() => router.push(`products/${props.id}`)}
       className="p-4 rounded duration-150 cursor-pointer bg-zinc-50 border border-secondary hover:bg-zinc-200"
     >
       <div className="flex gap-x-4">
