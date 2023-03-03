@@ -34,10 +34,10 @@ export default function page({ params }: { params: { slug: number } }) {
 
   return (
     <section>
-      <div className="container relative top-40 max-w-[1200px] m-auto">
+      <div className="container mt-40 max-w-[1200px] m-auto">
         {Book.map((item) => {
           return (
-            <div key={item.id} className="flex gap-10">
+            <div key={item.id} className="flex gap-10 min-h-[60vh]">
               <div className="w-1/5">
                 <Image
                   src={item.pict}
@@ -58,15 +58,7 @@ export default function page({ params }: { params: { slug: number } }) {
                 </div>
                 <div className="mt-10">
                   <h4 className="text-xl font-bold">Deskripsi Buku</h4>
-                  <p className="text-lg mt-4">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Similique, quo error? Labore, numquam! Recusandae veritatis
-                    eius cupiditate autem odit soluta doloremque et ipsam, vel
-                    sed, itaque expedita possimus sapiente quae totam facere!
-                    Modi praesentium aut perspiciatis quia sit magni esse.
-                    Quibusdam laudantium libero assumenda fugiat veniam ratione
-                    architecto corrupti natus!
-                  </p>
+                  <p className="text-lg mt-4">{item.desc}</p>
                 </div>
               </div>
               <div className="w-1/5 h-fit bg-zinc-100 p-5 rounded-md border border-secondary">

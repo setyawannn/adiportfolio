@@ -11,7 +11,7 @@ export default function Navbar() {
   };
 
   return (
-    <div className="fixed left-0 top-0 w-full z-10 ease-in duration-300 bg-secondary">
+    <nav className="fixed left-0 top-0 w-full z-10 ease-in duration-300 bg-secondary">
       <div className="max-w-[1100px] m-auto flex py-4 justify-between items-center text-primary">
         <Link href={"/"}>
           <h1 className="font-bold text-4xl py-4">Xoxo</h1>
@@ -62,6 +62,6 @@ export default function Navbar() {
           </ul>
         </div>
       </div>
-    </div>
+    </nav>
   );
 }
