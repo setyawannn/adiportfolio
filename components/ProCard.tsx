@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 
 interface Props {
   name: string;
@@ -20,7 +21,7 @@ export default function ProCard(props: Props) {
   return (
     <div className="min-h-min bg-zinc-50 rounded border border-secondary">
       <div className="p-5">
-        <img
+        <Image
           src={props.image}
           alt="The Art Of Design"
           width={200}

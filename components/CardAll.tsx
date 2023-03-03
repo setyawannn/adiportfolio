@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { useRouter } from "next/navigation";
 import React from "react";
 
@@ -24,7 +25,7 @@ export default function CardAll(props: Props) {
       className="p-4 rounded duration-150 cursor-pointer bg-zinc-50 border border-secondary hover:bg-zinc-200"
     >
       <div className="flex gap-x-4">
-        <img
+        <Image
           src={props.image}
           alt="Buku"
           width={200}

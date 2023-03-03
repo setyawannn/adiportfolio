@@ -8,9 +8,6 @@ export default function page({ params }: { params: { slug: number } }) {
   const id = Number(params.slug);
   const [count, setCount] = useState<number>(1);
   const Book = BooksData.filter((item) => item.id === id);
-  const price = Book[0].price;
-
-  console.log(Book);
 
   const ToIDR = (price: number) => {
     const newPrice = price.toLocaleString("id-ID", {
@@ -99,7 +96,7 @@ export default function page({ params }: { params: { slug: number } }) {
                     Subtotal
                   </h5>
                   <h6 className="text-base font-bold text-secondary">
-                    IDR {ToIDR(price * count)}
+                    IDR {ToIDR(item.price * count)}
                   </h6>
                 </div>
                 <div className="mt-6 w-full">
