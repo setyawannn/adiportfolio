@@ -1,9 +1,25 @@
+"use client";
 import ProCard from "@/components/ProCard";
-import React from "react";
-import BooksData from "@/assets/DataBooks.json";
+import React, { useEffect, useState } from "react";
 
 export default function BestSeller() {
-  const BestBooks = BooksData.filter((item) => item.best === true);
+  const [data, setData] = useState<any>([]);
+
+  useEffect(() => {
+    async function getData() {
+      try {
+        const response = await fetch(
+          "https://api.jsonbin.io/v3/b/640ed363c0e7653a0586fa4d"
+        );
+        const data = await response.json();
+        setData(data.record);
+      } catch (err) {
+        console.log(err);
+      }
+    }
+    getData();
+  }, []);
+  const BestBooks = data.filter((item: any) => item.best === true);
   return (
     <section>
       <div className="mb-7">
@@ -13,7 +29,7 @@ export default function BestSeller() {
         </p>
       </div>
       <div className="wrapper grid md:grid-cols-4 gap-6">
-        {BestBooks.map((item) => {
+        {BestBooks.map((item: any) => {
           return (
             <ProCard
               id={item.id}
