@@ -6,7 +6,7 @@ import { BsDownload, BsInfoLg } from "react-icons/bs";
 export default function HeroSection() {
   return (
     <section className="min-h-fit md:min-h-screen w-full bg-secondary">
-      <div className="max-w-[90%] m-auto md:relative md:top-40">
+      <div className="max-w-[90%] m-auto mt-24 md:mt-0 md:relative md:top-40">
         <div className="flex gap-y-10 flex-col md:flex-row justify-between">
           <div className=" w-full md:w-1/2">
             <div>
