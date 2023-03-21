@@ -34,11 +34,14 @@ export default function page({ params }: { params: { slug: number } }) {
 
   return (
     <section>
-      <div className="container mt-40 max-w-[1200px] m-auto">
+      <div className="container mt-32 md:mt-40 max-w-[90%] md:max-w-[1200px] m-auto">
         {Book.map((item) => {
           return (
-            <div key={item.id} className="flex gap-10 min-h-[60vh]">
-              <div className="w-1/5">
+            <div
+              key={item.id}
+              className="flex flex-col md:flex-row gap-10 min-h-[60vh]"
+            >
+              <div className="w-full md:w-1/5">
                 <Image
                   src={item.pict}
                   alt="mindset"
@@ -47,7 +50,7 @@ export default function page({ params }: { params: { slug: number } }) {
                   className="w-full h-fit"
                 />
               </div>
-              <div className="w-3/5 py-4">
+              <div className="w-full md:w-3/5 py-4">
                 <h3 className="text-4xl font-semibold">{item.name}</h3>
                 <h5 className="text-lg font-medium mt-2">{item.category}</h5>
                 <div className="w-52 p-4 bg-zinc-100 mt-6 border border-secondary rounded cursor-pointer hover:bg-zinc-300 duration-100">
@@ -61,7 +64,7 @@ export default function page({ params }: { params: { slug: number } }) {
                   <p className="text-lg mt-4">{item.desc}</p>
                 </div>
               </div>
-              <div className="w-1/5 h-fit bg-zinc-100 p-5 rounded-md border border-secondary">
+              <div className="w-full md:w-1/5 h-fit bg-zinc-100 p-5 rounded-md border border-secondary">
                 <div>
                   <h5 className="text-lg font-semibold text-zinc-700">
                     Ingin beli berapa?

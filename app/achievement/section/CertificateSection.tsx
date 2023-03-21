@@ -21,9 +21,8 @@ export default function CertificateSection() {
       <div>
         <h2 className="text-4xl font-bold mb-4">My Certificate</h2>
         <p className="text-lg mb-8">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ratione
-          saepe eum, necessitatibus similique earum atque architecto unde
-          repudiandae veniam!
+          Beberapa penghargaan yang saya dapatkan mulai dari lomba, webinar atau
+          penghargaan lainnya.
         </p>
       </div>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">

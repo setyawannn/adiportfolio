@@ -26,7 +26,7 @@ export default function ProCard(props: Props) {
           alt="The Art Of Design"
           width={200}
           height={200}
-          className="w-full max-h-60 rounded-sm"
+          className="w-full max-h-60 rounded-sm object-cover"
         />
         <div className="mt-4">
           <h4 className="text-lg font-bold mb">{props.name}</h4>

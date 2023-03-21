@@ -4,7 +4,7 @@ import BestSeller from "./section/BestSeller";
 
 export default function Products() {
   return (
-    <div className="container mt-40 max-w-[1100px] m-auto">
+    <div className="container mt-32  md:mt-40 max-w-[90%] md:max-w-[1100px] m-auto">
       <BestSeller />
       <AllProduct />
     </div>

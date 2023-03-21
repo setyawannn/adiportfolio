@@ -7,7 +7,7 @@ import {
 
 export default function Footer() {
   return (
-    <footer className="mt-40 md:mt-28 w-full py-2">
+    <footer className="mt-28 w-full py-2">
       <div className="container max-w-[1100px] mx-auto">
         <div className="flex flex-col gap-y-5 md:flex-row justify-between items-center">
           <div>
