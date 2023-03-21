@@ -6,7 +6,7 @@ import ProjectsSection from "./section/ProjectsSection";
 
 export default function Home() {
   return (
-    <div className="container relative top-24 md:top-40">
+    <div className="top-24 max-w-[100vw]">
       <HeroSection />
       <WhoSection />
       <ExperienceSection />
