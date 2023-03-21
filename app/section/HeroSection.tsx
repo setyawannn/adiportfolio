@@ -5,15 +5,15 @@ import { BsDownload, BsInfoLg } from "react-icons/bs";
 
 export default function HeroSection() {
   return (
-    <section className="h-screen bg-secondary">
-      <div className="container relative top-40 max-w-[1100px] m-auto">
-        <div className="flex justify-between">
-          <div className="w-1/2">
+    <section className="min-h-fit bg-secondary">
+      <div className="max-w-[90%] m-auto">
+        <div className="flex gap-y-10 flex-col justify-between">
+          <div className=" w-full md:w-1/2">
             <div>
-              <h1 className="text-primary text-5xl font-bold leading-tight">
+              <h1 className="text-primary text-4xl md:text-5xl font-bold leading-tight">
                 Bringing Digital Solutions to Life
               </h1>
-              <p className="text-primary text-xl font-normal mt-7 leading-snug">
+              <p className="text-primary text-lg md:text-xl font-normal mt-7 leading-snug">
                 Hai, saya Prayoga Adi Setyawan. Saya bertekad untuk
                 mengembangkan skill saya di bidang design dan web development,
                 sangat terbuka untuk berkolaborasi demi suatu inovasi.
@@ -43,7 +43,7 @@ export default function HeroSection() {
               </div>
             </div>
           </div>
-          <div className="w-1/3">
+          <div className="w-full md:w-1/3">
             <TabsPage />
           </div>
         </div>

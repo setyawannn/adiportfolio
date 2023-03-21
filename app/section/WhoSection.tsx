@@ -3,10 +3,10 @@ import React from "react";
 
 export default function WhoSection() {
   return (
-    <section className="container mt-20 relative max-w-[680px] m-auto">
+    <section className="container mt-20 relative max-w-[90%] md:max-w-[680px] m-auto">
       <div className="">
         <h2 className="text-4xl font-bold mb-6">Who is Adi?</h2>
-        <p className=" text-lg font-normal leading-loose">
+        <p className=" text-lg text-justify md:text-left font-normal leading-loose">
           Saya merupakan designer sekaligus web developer dari{" "}
           <Link
             target="_blank"

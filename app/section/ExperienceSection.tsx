@@ -72,13 +72,12 @@ const dataExperience = [
 
 export default function ExperienceSection() {
   return (
-    <section className="container min-h-screen mt-20 relative max-w-[680px] m-auto">
+    <section className="container min-h-screen mt-20 relative max-w-[90%] md:max-w-[680px] m-auto">
       <h2 className="text-4xl font-bold mb-6">Adi Experience?</h2>
       <p className="text-lg">
         Saya juga banyak mengikuti perlombaan dengan banyak kegagalan dan juga
         kemenangan, serta tetap menggarap project yang ada di Ciboox Indonesia
       </p>
-
       <ExTabs />
     </section>
   );

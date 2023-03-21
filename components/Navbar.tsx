@@ -11,8 +11,8 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="fixed left-0 top-0 w-full z-10 ease-in duration-300 bg-secondary">
-      <div className="max-w-[1100px] m-auto flex py-4 justify-between items-center text-primary">
+    <nav className="fixed left-0 top-0 w-screen z-10 ease-in duration-300 bg-secondary">
+      <div className="max-w-[90%] m-auto flex py-4 justify-between items-center text-primary">
         <Link href={"/"}>
           <h1 className="font-bold text-4xl py-4">Xoxo</h1>
         </Link>

@@ -64,7 +64,11 @@ export default function TabsPage() {
   };
 
   return (
-    <Tabs selectedIndex={activeTab} onSelect={handleActiveSelect}>
+    <Tabs
+      selectedIndex={activeTab}
+      onSelect={handleActiveSelect}
+      className="min-h-[30rem]"
+    >
       <TabList className="flex">
         {TitleTabs.map((tab, index) => {
           return (
